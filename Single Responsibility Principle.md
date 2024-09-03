@@ -8,6 +8,12 @@ A class should have only one reason to change, meaning it should have one respon
 ## 2. Open/Closed Principle (OCP)
 Software entities should be open for extension but closed for modification. This allows new functionality to be added without altering existing code.
 
+  The Open-Closed Principle requires that classes should be open for extension and closed for modification.
+
+Modification means changing the code of an existing class, and extension means adding new functionality.
+
+So this principle says, we should be able to add new functionality without touching the existing code. This is because whenever we will modify the existing code, there will be a chance to introduce a new bug. We should avoid touching the production code.
+
 ## 3. Liskov Substitution Principle (LSP)
 Subtypes must be substitutable for their base types without altering the correctness of the program. This ensures that derived classes extend the base class without changing its behavior.
 
